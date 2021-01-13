@@ -1,0 +1,281 @@
+
+body{
+  font-family: 'Work Sans', sans-serif;
+  cursor: context-menu;
+  text-align: justify;
+}
+.restbody{
+  margin-bottom: 100px;
+  margin-top: 80px;
+}
+nav{
+  font-size: 18px;
+  height: 80px
+}
+.aboutheading{
+  font-weight:bolder;
+  margin-left: 90px;
+  font-size: 35px;
+}
+#aboutpara{
+  font-size: 20px;
+}
+.active{
+  font-weight: bolder;
+}
+.indexrestbody .heading{
+  letter-spacing: 1px;
+  font-weight: bolder;
+  font-size: 45px;
+
+}
+.indexrestbody p{
+  font-size: 20px;
+}
+small{
+  font-size: 15px;
+}
+.title{
+  font-weight: 400;
+  font-size: 30px;
+  text-transform: capitalize;
+  border-bottom: 1px solid #707070;
+  padding-bottom: 9px;
+  white-space: nowrap;
+
+}
+.indexrestbody .col-md-6 img,.aboutrestbody .col-md-6 img{
+  transition: transform .2s;
+}
+.indexrestbody .col-md-6 img:hover, .aboutrestbody .col-md-6 img:hover {
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1);
+}
+.card{
+  width: 400px;
+}
+
+#myintersets p{
+  font-size: 22px;
+}
+#articles p{
+  font-size: 22px;
+}
+#onlinecertifications p{
+  font-size: 22px;
+}
+#OnlineCertifications p{
+  font-size: 22px;
+}
+
+.cards{
+  margin-top: 50px;
+}
+.cards img{
+  border-radius: 10px;
+  box-shadow: 4px 4px 5px #aaaaaa;
+}
+#Awards p{
+  font-size: 22px;
+}
+
+@media (max-width:768px) {
+  .card{
+    margin-top: 70px;
+  }
+  .aboutimg{
+    margin-left: 50px;
+  }
+
+
+}
+@media (min-width:768px) {
+  .sideimg{
+    height: 200px;
+    width: 200px;
+  }
+
+  .onlinecertificate{
+    height: 750px;
+  }
+  .cards img{
+      width: 500px;
+      height: 500px;
+  }
+  .indexrestbody{
+    margin-bottom: 100px;
+    margin-top: 80px;
+  }
+  .indexrestbody img{
+    border-radius: 9px;
+  }
+
+  .remimg{
+     margin-left:80px;
+  }
+  .ml-auto li{
+    margin-left: 50px;
+  }
+  .ml-auto li:last-child{
+    margin-right: 0px
+  }
+  #mail{
+    font-weight: 500;
+    color : #495057;
+    margin-left: 10px
+  }
+  #tel{
+    font-weight: 500;
+
+    color : #495057;
+
+    margin-left: 27px;
+  }
+
+
+
+  #myintersets{
+    font-weight: 300;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+  }
+  .Biomimicrycontent p{
+    /* width: 600px; */
+  }
+
+
+
+}
+/* for resume.html file */
+.resumebox{
+  box-shadow: 0px 3px 6px #000000;
+  background-color: #fafafa;
+}
+
+.resume button{
+  margin-left: 50%;
+  position: absolute;
+  width: 299px;
+  height: 74px;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%);
+}
+.active{
+  border-bottom: 1.3px solid black;
+
+}
+nav .ml-auto li:hover{
+  border-bottom: 1.3px solid black;
+  font-weight: bold;
+}
+/* agro based */
+.projectrestbody{
+  margin-top: 150px;
+  margin-bottom: 100px;
+}
+.projecttitle{
+  font-weight: bolder;
+  font-size: 28px;
+}
+.projecttitleone{
+  font-weight: bolder;
+  font-size: 30px;
+}
+.projectsubheading{
+  font-size: 22px;
+  font-weight: 400;
+}
+.projectpara{
+  font-size:20px;
+  /* width:85%; */
+  font-weight: 400;
+  color: rgba(0,0,0,0.7)
+
+
+}
+.projectrestbody li{
+  font-size:20px;
+  width:85%;
+  font-weight: 400;
+  color: rgba(0,0,0,0.7)
+  
+}
+
+.projectsubheading{
+  border-bottom: 1px solid black;
+  padding-bottom: 9px;
+  font-weight: bold;
+}
+/* game developed */
+.playbtn{
+  border-radius: 20px;
+  height: 70px;
+  width: 250px;
+}
+
+.hiding p{
+  font-weight:bold;
+  font-size:15px;
+  letter-spacing:1px;
+  margin-left:10px;
+}
+.moreproj img{
+  cursor: context-menu;
+}
+.moreproj{
+  cursor: context-menu;
+  transition : margin-top 0.3s;
+}
+
+.moreproj:hover{
+    position: relative;
+    ms-margin-top: -40px; /* IE 9 */
+    -webkit-margin-top: -40px; /* Safari 3-8 */
+    margin-top : -40px;
+}
+  #sidebar {
+    position: fixed;
+    background-color: transparent;
+    top: 30%;
+
+  }
+  #sidebar li{
+    width: 500px;
+    font-size: 15px;
+
+  }
+
+
+  #sidebar li:hover{
+    color: #000;
+    font-weight: bold;
+  }
+  #sidebar nav li a{
+    color:grey;
+    text-decoration: none;
+    margin-top: 0px;
+  }
+  .correctpos{
+    display:block;
+    padding-top:100px;
+    margin-top:-100px;
+  }
+
+
+@media (min-width:786px) {
+
+  .moreprojtitle{
+    margin-left: 350px;
+  }
+}
+@media (max-width:768px) {
+  .moreprojtitle{
+    margin-left: 350px;
+  }
+  .moreproj img{height: 200px;width:200px}
+}
+.onlinelearningcerticate{
+  height: 600px;
+}
